@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class MovieSheeshApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(MovieSheeshApplication.class, args);
 	}
 
