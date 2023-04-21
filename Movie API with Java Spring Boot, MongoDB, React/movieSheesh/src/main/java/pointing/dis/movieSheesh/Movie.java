@@ -18,7 +18,7 @@ import java.util.List;
 public class Movie {
     @Id
     private ObjectId id;
-    private String ImdbId, title, releaseDate, trailerLink, poster;
+    private String imdbId, title, releaseDate, trailerLink, poster;
     private List<String> genres, backdrops;
 
     @DocumentReference //store only Ids of the reviews, the reviews will be in a separate collection
